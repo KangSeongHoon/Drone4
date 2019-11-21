@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+
+<BorderPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="exam04.MainController">
+   <center>
+      <Button fx:id="btn1" mnemonicParsing="false" prefHeight="24.0" prefWidth="94.0" text="얍" BorderPane.alignment="CENTER" />
+   </center>
+   <top>
+      <HBox alignment="CENTER" spacing="10.0" style="-fx-background-color: #b0d7dc;" BorderPane.alignment="CENTER_RIGHT">
+         <children>
+            <!-- fX에 태그타입 아이디로 필드 선언해주기 EX) @FXML private Button btnOK; -->
+            <Button fx:id="btnService1" minHeight="40.0" minWidth="100.0" mnemonicParsing="false" text="서비스1" />
+            <Button fx:id="btnService2" minHeight="40.0" minWidth="100.0" mnemonicParsing="false" text="서비스2" />
+         </children>
+      </HBox>
+   </top>
+</BorderPane>

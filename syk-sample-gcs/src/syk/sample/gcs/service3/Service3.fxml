@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+
+<BorderPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="syk.sample.gcs.service3.Service3Controller">
+    <bottom>
+        <HBox alignment="CENTER" spacing="10.0" style="-fx-background-color: pink;" BorderPane.alignment="CENTER">
+            <children>
+                <!-- fX에 태그타입 아이디로 필드 선언해주기 EX) @FXML private Button btnOK; -->
+                <Button fx:id="btnOK" minHeight="40.0" minWidth="100.0" mnemonicParsing="false" text="OK" />
+                <Button fx:id="btnCancel" minHeight="40.0" minWidth="100.0" mnemonicParsing="false" text="Cancel" />
+            </children>
+        </HBox>
+    </bottom>
+    <center>
+        <Button fx:id="btn1" mnemonicParsing="false" prefHeight="24.0" prefWidth="94.0" text="얍" BorderPane.alignment="CENTER" />
+    </center>
+</BorderPane>
